@@ -33,15 +33,10 @@ public class MainActivity extends Activity {
 		iv1 = (ImageView) findViewById(R.id.iv1);
 	}
 	
-	//onClick definido para @id/bCalc en el archivo de layout
-	public void mostrarCalc(View view) {
-//		Intent calcIntent = Intent.makeMainSelectorActivity(Intent.ACTION_MAIN, Intent.CATEGORY_APP_CALCULATOR);
-//		startActivity(calcIntent);
-
-		Intent calcIntent = new Intent();
-		calcIntent.setClassName("com.android.calculator2", "com.android.calculator2.Calculator");
-		startActivity(calcIntent);
-
+	//onClick definido para @id/bGal en el archivo de layout
+	public void mostrarGaleria(View view) {
+		Intent galIntent = Intent.makeMainSelectorActivity(Intent.ACTION_MAIN, Intent.CATEGORY_APP_GALLERY);
+		startActivity(galIntent);
 
 	}	
 	

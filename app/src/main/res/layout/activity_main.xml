@@ -13,11 +13,11 @@
         android:text="Hola Mundo" />
 
     <Button
-        android:id="@+id/bCalc"
+        android:id="@+id/bGal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="mostrarCalc"
-        android:text="Mostrar calculadora" />
+        android:onClick="mostrarGaleria"
+        android:text="Mostrar galería" />
 
     <Button
         android:id="@+id/bWeb"
